@@ -89,15 +89,15 @@ footer {
 
 @media screen and (max-width: 768px){
     main {
-        width: 100%;
+        width: 90%;
         display: block;
-        
     }
 
     .step-box {
         display: flex;
         justify-content: center;
         width: 100%;
+        
         margin-right: 0;
         margin-bottom: 30px;
     }
@@ -126,5 +126,10 @@ footer {
 
     .step-number {
         font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .step-box h3 {
+        margin: 10px 0 5px;
     }
 }
